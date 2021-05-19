@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #B0C4DE;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex-direction: column;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #9370DB;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 1em 20px 1em;
+  padding-left: 0;
+  /* list-style: none; */
+  flex-direction: row;
+}
+
+.citylistLayer {
+  line-height: 3;
+  display: flex;
+  flex-direction: column;
+  color: #9370DB;
+  list-style: circle;
+  flex-wrap: nowrap;
+  align-items: center;
 }
